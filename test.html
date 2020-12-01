@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link rel="stylesheet" href="css/test.css">
+	  <link href="css/head.css" rel="stylesheet" type="text/css">
+  <link href="css/grid.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<title>Персонажи Disney</title>
+</head>
+<body>
+<div class="conteiner">
+     <div class="row">
+       <div class="top-menu cols col-4">
+        <nav class="mobile">
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="heroes.html">Герои</a>
+            <a href="villains.html">Злодеи</a>
+            <a href="princess.html">Принцессы</a>
+            <a href="animals.html">Животные</a>
+            <a href="test.html">Тест</a>
+          </div>
+          <div class="menu_2" onclick="openNav()">&#9776;</div>
+        </nav>
+        <nav class="comp">
+          <ul>
+            <li class="clickMenu comp_li"><a class="str">ПЕРСОНАЖИ DISNEY</a>
+              <ul>
+                <li class="comp_li"><a href="heroes.html">Герои</a></li>
+                <li class="comp_li"><a href="villains.html">Злодеи</a></li>
+                <li class="comp_li"><a href="princess.html">Принцессы</a></li>
+                <li class="comp_li"><a href="animals.html">Животные</a></li>
+                <li class="comp_li"><a href="test.html">Тест</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+       </div>
+      <div class="cols col-7 hero_head "><b>ТЕСТ</b></div>
+      <div class="cols col-1 main" onclick="window.location.href = 'index.html';">НА ГЛАВНУЮ</div>
+     </div>
+     	<div class="test">
+		<div class="test_text cols col-12"><h1>Кто вы из ЗЛОДЕЕВ DISNEY?</h1></div>
+		<div class="cols col-12"><img class="img_test" src="img/header.jpg"></div>
+            <div class="question cols col-12"></div>
+            <ul class="answer"></ul>
+        </div>
+</div>
+ <script src="js/menu.js"></script>
+<script src="js/data.js"></script>
+<script src="js/answer.js"></script>
+<script src="js/test.js"></script>
+
+</body>
+</html>

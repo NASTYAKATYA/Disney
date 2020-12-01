@@ -1,0 +1,220 @@
+html{
+    background: linear-gradient(to top, #416078, #E3E8E6);
+}
+* {box-sizing:border-box}
+#block-body {
+    width: 100%;
+    margin: 0.4em auto;
+    height: auto;
+}
+
+#block-content {
+    width: 100%;
+    height: auto;
+}
+.main_head{
+   width: 100%; 
+   height: 80px;
+  background-image: url('../img/disney.jpg');
+}
+
+.hero_head{
+  padding: auto 0;
+  height: 80px;
+  background-color: #66d9ff;
+  text-align: center;
+  font-size: 4.8em;
+  color: #000;
+  font-family:  "Exo2-Medium", sans-serif;
+}
+.top-menu {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 0.8em
+    -moz-border-radius: 0.4em 0 0 0.4em;
+    -webkit-border-radius: 0.4em 0 0 0.4em;
+}
+.top-menu .comp_li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family:  "Exo2-Medium", sans-serif;
+    font-size: 1.375em;
+    color: white;
+    height: 80px;
+    padding-top: 25px;
+    cursor: pointer;
+    border-radius: 0.8em
+    -moz-border-radius: 0.4em 0 0 0.4em;
+    -webkit-border-radius: 0.4em 0 0 0.4em;
+}
+.top-menu .comp_li a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    background: #00ADE4;
+}
+.block-top-auth {
+    width: 100%;
+    float: left;
+    margin-left: 3.125%;
+    height: 80px;
+}
+.block-top-auth p {
+    margin-top: 12px;
+    text-align: center;
+    margin-bottom: 8px;
+    
+}
+.block-top-auth a {
+    text-decoration: none;
+    color: white;
+    font-family:  "Exo2-Medium", sans-serif;
+    font-size: 0.9375em;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.block-top-auth a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    color: #00ADE4;
+}
+.clickMenu{
+  width: 30%;
+  border-radius: 1em
+  -moz-border-radius: 0.5em 0 0 0.5em;
+  -webkit-border-radius: 0.5em 0 0 0.5em;
+}
+.clickMenu .str:after
+{
+  content:'\00A0 \00A0 \21E9';
+}
+
+.clickMenu:hover .str:after
+{
+  content:'\00A0 \00A0 \21E7';
+}
+.mobile{
+ display: none;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+   text-decoration: underline;
+  font-family:  "Exo2-Medium", sans-serif;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+
+}
+.sidenav div a {
+  padding: 8px 8px 16px 32px;
+  text-decoration:underline;
+  font-family:  "Exo2-Medium", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+
+}
+.sidenav a:hover{
+  color: #00ADE4;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.menu_2{
+ 
+  cursor:pointer;
+  font-family:  "Exo2-Medium", sans-serif;
+  font-size: 1.5em;
+  padding-top: 15px;
+  background-color: black;
+  color: white;
+  height: 65px;
+  border-radius: 0.8em
+  -moz-border-radius: 0.4em 0 0 0.4em;
+  -webkit-border-radius: 0.4em 0 0 0.4em;
+}
+.comp ul {
+  padding:0;
+  margin:0;
+  list-style: none;
+  border-radius: 1em
+  -moz-border-radius: 0.5em 0 0 0.5em;
+  -webkit-border-radius: 0.5em 0 0 0.5em;
+          }
+.comp ul li {
+  margin: 0;
+  background-color: black;
+  position: absolute;
+  border-radius: 1em
+  -moz-border-radius: 0.5em 0 0 0.5em;
+  -webkit-border-radius: 0.5em 0 0 0.5em;
+          }
+.comp ul ul {
+  display: none;
+  position: relative;
+  top: 100%;
+      }
+      
+.comp ul li:hover > ul {
+  display: block;
+  background-color: black;
+  z-index: 1000;
+      }
+.comp ul ul li {
+  display:list-item;
+  position: relative;
+      }
+
+.main{
+    text-decoration: none;
+    font-family:  "Exo2-Medium", sans-serif;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    width: auto;
+    height: 80px;
+    padding-top: 25px;
+    border-radius: 0 0.8em 0.8em 0
+    -moz-border-radius: 0 0.4em 0.4em 0;
+    -webkit-border-radius: 0 0.4em 0.4em 0;
+
+}
+
+.main:hover{
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    background: #00ADE4;
+}

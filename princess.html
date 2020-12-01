@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Персонажи Disney</title>
+  <link href="css/head.css" rel="stylesheet" type="text/css">
+  <link href="css/hvpa.css" rel="stylesheet" type="text/css">
+  <link href="css/grid.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <script type="text/javascript" src="js/princess.js"></script>
+</head>
+<body>
+  <div class="conteiner">
+    <div class="row">
+       <div class="top-menu cols col-4">
+          <nav class="mobile">
+            <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="row"><a href="#anna" onclick="closeNav()">Анна из Эренделла</a></div>
+              <div class="row"><a href="#ariel" onclick="closeNav()">Ариэль</a></div>
+              <div class="row"><a href="#avrora" onclick="closeNav()">Принцесса Аврора</a></div>
+              <div class="row"><a href="#belle" onclick="closeNav()">Белль</a></div>
+              <div class="row"><a href="#cinderella" onclick="closeNav()">Золушка</a></div>
+              <div class="row"><a href="#jasmine" onclick="closeNav()">Принцесса Жасмин</a></div>
+              <div class="row"><a href="#merida" onclick="closeNav()">Принцесса Мерида</a></div>
+              <div class="row"><a href="#moana" onclick="closeNav()">Моана</a></div>
+              <div class="row"><a href="#mulan" onclick="closeNav()">Фа Мулан</a></div>
+              <div class="row"><a href="#pocahontas" onclick="closeNav()">Покахонтас</a></div>
+              <div class="row"><a href="#raps" onclick="closeNav()">Рапунцель</a></div>
+              <div class="row"><a href="#tiana" onclick="closeNav()">Тиана</a></div>
+              <div class="row"><a href="#white" onclick="closeNav()">Белоснежка</a></div>
+              <div class="row"><a href="#elsa" onclick="closeNav()">Эльза</a></div>
+              <div class="row"><a href="#sofia" onclick="closeNav()">Принцесса София</a></div>
+            </div>
+            <div class="menu_2" onclick="openNav()">&#9776;</div>
+          </nav>
+          <nav class="comp">
+            <ul>
+              <li class="clickMenu comp_li"><a class="str">ПЕРСОНАЖИ DISNEY</a>
+                <ul>
+                  <li class="comp_li"><a href="heroes.html">Герои</a></li>
+                  <li class="comp_li"><a href="villains.html">Злодеи</a></li>
+                  <li class="comp_li"><a href="princess.html">Принцессы</a></li>
+                  <li class="comp_li"><a href="animals.html">Животные</a></li>
+                  <li class="comp_li"><a href="test.html">Тест</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+       </div>
+       <div class="cols col-7 hero_head "><b>ПРИНЦЕССЫ</b></div>
+       <div class="cols col-1 main" onclick="window.location.href = 'index.html';">НА ГЛАВНУЮ</div>
+    </div> 
+    <div class="row mins_size">
+      <div class="row cols col-12 text_4" onclick="window.location.href = 'test.html';">ПРОЙДИТЕ ТЕСТ И УЗНАЙТЕ КТО ВЫ ИЗ ЗЛОДЕЕВ!</div>
+    <div class="row cols col-12 text_3">CМОТРИТЕ ТАКЖЕ ДРУГИЕ КАТЕГОРИИ</div>
+    <div class="row">
+        <div class="category cols col-4 ch1" onclick="window.location.href = 'heroes.html';">ГЕРОИ</div>
+        <div class="category cols col-4 ch2" onclick="window.location.href = 'villains.html';">ЗЛОДЕИ</div>
+        <div class="category cols col-4 ch4" onclick="window.location.href = 'animals.html';">ЖИВОТНЫЕ</div>
+      </div>
+    </div>
+    <div class="row post-slider">
+      <div class="row">
+        <h1 class="slider-title">&#9733;САМЫЕ ЯРКИЕ ПРЕДСТАВИТЕЛИ КАТЕГОРИИ!&#9733;</h1>
+      </div>
+      <div class="row">
+        <div class="prev2 cols col-1" onclick="plusSlides(-1)">&#10094;</div>
+        <div class="cols col-10" id="post-wrapper"></div>
+        <div class="next2 cols col-1" onclick="plusSlides(1)">&#10095;</div>
+      </div>
+    </div>
+    <div class="row cols col-12" id="characters"></div>
+    <div class="row"><a href="#" class="topbutton">&#8679;</a></div>
+    <script type="text/javascript" src="js/filljavascr.js"></script>
+    <script type="text/javascript" src="js/filljavaslider.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/menu.js"></script>
+  </div>
+</body>
+</html>
